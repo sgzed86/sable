@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(destination: ThreadInventoryView()) {
-                    Label("Thread Inventory", systemImage: "spool")
+                    Label("Thread Inventory", systemImage: "scribble")
                 }
                 
                 NavigationLink(destination: FabricView()) {
